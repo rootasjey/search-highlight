@@ -3,6 +3,16 @@
   "name": "Search Highlight",
   "version": "0.1",
   "description": "One click highlight and search with AI",
+  "icons": {
+    "48": "./assets/icon-48.png",
+    "96": "./assets/icon-96.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "./assets/icon-48.png",
+      "96": "./assets/icon-96.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": [
