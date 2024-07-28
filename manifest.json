@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Search Highlight",
+  "version": "0.1",
+  "description": "One click highlight and search with AI",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
